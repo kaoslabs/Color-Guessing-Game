@@ -4,7 +4,7 @@ var express = require("express"),
 // app.set("view engine", "ejs");
 
 app.get("/", function(req, res){
-    res.render("colorGame");
+    res.render("colorGame.html");
 });
 
 app.get("*", function(req, res){
